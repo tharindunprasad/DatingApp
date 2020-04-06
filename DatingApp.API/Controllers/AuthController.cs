@@ -12,7 +12,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 
 namespace DatingApp.API.Controllers
-{   
+{
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
